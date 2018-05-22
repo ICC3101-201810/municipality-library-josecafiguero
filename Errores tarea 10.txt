@@ -1,0 +1,5 @@
+
+El error principal encontrado en el archivo dll es que 
+las clases address y person son cíclicas, se necesita 
+un person para crear address y una address para crear 
+un person.
